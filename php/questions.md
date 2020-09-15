@@ -7,7 +7,7 @@ $arr[8] = 'test';
 ```
 
 **Answer:** 
-  - [ ] 1 
+  - [x] 1 
   - [ ] 8 
   - [ ] 9
 
@@ -39,7 +39,7 @@ $nb = (int) implode('', $arr);
 echo $nb;
 ```
 
-**Answer:** ?
+**Answer:** 31
 
 B.
 ```php
@@ -49,7 +49,7 @@ $b = "4{$b}";
 echo $a . ',' . $b++;
 ```
 
-**Answer:** ?
+**Answer:** 41,41
 
 ## 4. Which PHP code snippet shows an example of Dependency Injection?
 
@@ -87,7 +87,7 @@ C.
 ```
 
 **Answer:**
-  - [ ] A
+  - [x] A
   - [ ] B
   - [ ] C
 
