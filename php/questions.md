@@ -24,7 +24,7 @@ $c = $b;
 
 **Answer:**
   - [ ] 1
-  - [ ] 2
+  - [x] 2
   - [ ] 3
 
 ## 3. What is the output of the following snippets?
@@ -109,7 +109,7 @@ class MyClass
 }
 ```
    
-**Answer** : ?
+**Answer** : Builder
    
 #### Design Pattern #2   
 
@@ -152,5 +152,5 @@ class MyClass
 }
 ```
 
-**Answer** : ?
+**Answer** : Iterator
 
