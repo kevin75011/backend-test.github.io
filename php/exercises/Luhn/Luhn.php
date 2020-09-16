@@ -5,7 +5,7 @@ class Luhn
 {
     public function isValid(string $str): bool
     {
-        // Delete spaces
+        // Remove spaces
         $number = str_replace(' ','',$number);
 
         // Set the string length and parity
