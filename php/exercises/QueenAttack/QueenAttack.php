@@ -8,7 +8,10 @@ class QueenAttack
      */
     public function placeQueen(int $i, int $j): bool
     {
-
+        if (($i >= 0) && ($i < 8) && ($j >= 0) && ($j < 8)){
+            return true;
+        }
+        throw new InvalidArgumentException('The queen is not on the checkerboard');
     }
 
     /**
