@@ -25,6 +25,7 @@ class QueenAttack
         // Check if queens are on the checkerboard
         try{
             placeQueen($white[0],$white[1]);
+            placeQueen($black[0],$black[1]);
             
         // Exception propagation
         }catch(Exception $e){
