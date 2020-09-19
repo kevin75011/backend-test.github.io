@@ -7,7 +7,7 @@ require_once('WalkingRobot.php');
 class RobotFactory
 {
     private static $registry = [];
-
+    
     public function createFlyingRobot()
     {
         $robot = new FlyingRobot();
@@ -21,7 +21,9 @@ class RobotFactory
         self::$registry[] = $robot;
         return $robot;
     }
-    
+    /**
+     * @param  String  $model  model type name
+     */
     public static function generateName(String $model)
     {
         $alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
